@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 150vh;
+}
+
+.home{
+    height: 100vh;
+    background-image: url(asset/bg/bg.jpg);
+    background-size: cover;
+}
+
+.mainBox{
+    height: 100vh;
+}
+
+.navbarBox{
+    height: 8vh;
+}
+
+.navbar{
+    height: 5vh;
+}
+
+.title{
+    margin-top: -10px;
+    letter-spacing: 1px;
+}
+
+ul, li{
+    margin: 0 10px;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+a{
+    padding: 7px 15px;
+}
+
+/* ================================================================== */
+
+.kataBox{
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kata{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* ================================================================== */
+
+.hororMainBox{
+    height: 100vh;
+    background-image: url(asset/bg/bg2.jpeg);
+    position: relative;
+    z-index: -20;
+}
+
+.hororListBox{
+    top: 8%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    width: 65%;
+    height: 90vh;
+}
+
+.hororList{
+    height: 40vh;
+    width: 24%;
+    margin: 10px;
+    backdrop-filter: blur(3px);
+}
+
+.hororImg{
+    width: 90%;
+    height: 90%;
+    box-shadow: 3px 3px 10px black;
+}
+
+/* ================================================================== */
+
+.kataBox{
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kata{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* ================================================================== */
+
+.superheroMainBox{
+    height: 100vh;
+    background-image: url(asset/bg/bg3.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: -20;
+}
+
+.superheroListBox{
+    top: 8%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    width: 65%;
+    height: 90vh;
+}
+
+.superheroList{
+    height: 40vh;
+    width: 24%;
+    margin: 10px;
+    backdrop-filter: blur(3px);
+}
+
+.superheroImg{
+    width: 90%;
+    height: 90%;
+    box-shadow: 3px 3px 10px black;
+}
+
+/* MEDIA BREAKPOINT */
+
+/* 1315 */
+
+@media (max-width: 1315px){
+    .superheroList , .hororList{
+        width: 28%;
+    }
+}
+
+/* 1129 */
+
+@media (max-width: 1129px){
+    .superheroList , .hororList{
+        width: 30%;
+    }
+}
+
+/* 958 */
+
+@media (max-width: 958px){
+    .superheroListBox , .hororListBox{
+        width: 100%;
+    }
+
+    .superheroList , .hororList{
+        width: 30%;
+    }
+
+    .hororImg , .superheroImg{
+        width: 70%;
+    }
+}
+
+/* 774 */
+
+@media (max-width: 774px){
+    .superheroList , .hororList{
+        width: 30%;
+        margin: -10px;
+    }
+
+    .hororImg , .superheroImg{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+/* 637 */
+
+@media (max-width: 637px){
+    .superheroList , .hororList{
+        width: 30%;
+        height: 30vh;
+        margin: 10px;
+    }
+
+    .hororImg , .superheroImg{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+/* 616 */
+
+@media (max-width: 616px){
+    .nav{
+        margin: -32px 250px;
+    }
+}
+
+/* 600 */
+
+@media (max-width: 600px){
+    .hororListBox , .superheroListBox{
+        margin: -30px 0;
+    }
+
+    .hororList{
+        width: 30%;
+        margin-top: -10px;
+    }
+
+    .superheroList{
+        width: 30%;
+        margin-top: -2px;
+    }
+}
+
+/* 550 */
+
+@media (max-width: 550px){
+    .nav{
+        margin: -32px 200px;
+    }
+}
+
+/* 500 */
+
+@media (max-width: 500px){
+    .nav{
+        margin: -32px 150px;
+    }
+}
+
+/* 465 */
+
+@media (max-width: 465px){
+    .nav{
+        margin: -32px 100px;
+    }
+
+    .title{
+        margin-top: -10px;
+        margin-left: -10px;
+        letter-spacing: 1px;
+    }
+
+    .hororMainBox{
+        height: 360vh;
+        background-image: url(asset/bg/bg2.jpeg);
+        background-size: 1170%;
+        background-repeat: no-repeat;
+    }
+
+     .hororListBox , .superheroListBox{
+        margin: -30px 0;
+    }
+
+    .hororList{
+        width: 60%;
+        height: 60%;
+        margin-top: -10px;
+    }
+
+    .superheroMainBox{
+        height: 360vh;
+        background-image: url(asset/bg/bg3.jpg);
+        background-size: 1310%;
+        background-position: -2000px;
+        background-repeat: no-repeat;
+    }
+
+    .superheroList{
+        width: 60%;
+        height: 60%;
+        margin-top: -10px;
+    }
+}
+
+/* 429 */
+
+@media (max-width:430px){
+    .hororMainBox{
+        background-size: 1260%;
+    }
+
+    .superheroMainBox{
+        background-size: 1420%;
+    }
+}
+
+/* 405 */
+
+@media (max-width: 405px){
+    .nav{
+        margin: -32px 60px;
+    }
+
+    .hororMainBox{
+        height: 360vh;
+        background-size: 1320%;
+    }
+
+    .hororList{
+        height: 50%;
+    }
+
+    .superheroMainBox{
+        margin: -270px 0;
+        background-size: 1440%;
+        background-position: -2000px;
+        height: 310vh;
+    }
+
+    .superheroList{
+        height: 50%;
+    }
+}
+
+/* 374 */
+
+@media (max-width: 374px){
+    .nav{
+        margin: -32px 60px;
+    }
+
+    ul, li{
+        margin: 0 1px;
+        list-style: none;
+        letter-spacing: 1px;
+    }
+}
+
+/* 354 */
+
+@media (max-width: 354px){
+    .nav{
+        margin: -32px 55px;
+    }
+
+    .hororMainBox{
+        height: 360vh;
+        background-size: 1320%;
+    }
+
+    .hororList{
+        height: 50%;
+    }
+
+    .superheroMainBox{
+        margin: -550px 0;
+        background-size: 1440%;
+        background-position: -2000px;
+        height: 290vh;
+    }
+
+    .superheroList{
+        height: 50%;
+    }
+}
+
+/* 338 */
+
+@media (max-width: 338px){
+    .nav{
+        margin: -32px 55px;
+    }
+
+    .hororMainBox{
+        height: 360vh;
+        background-size: 1320%;
+    }
+
+    .hororList{
+        height: 40%;
+    }
+
+    .superheroMainBox{
+        margin: -550px 0;
+        background-size: 1440%;
+        background-position: -2000px;
+        height: 250vh;
+    }
+
+    .superheroList{
+        height: 40%;
+    }
+}
+
+/* 320 */
+
+@media (max-width: 320px){
+    .nav{
+        margin: -32px 25px;
+    }
+
+    .hororMainBox{
+        height: 360vh;
+        background-size: 1320%;
+    }
+
+    .hororList{
+        height: 40%;
+    }
+
+    .superheroMainBox{
+        margin: -900px 0;
+        background-size: 1440%;
+        background-position: -2000px;
+        height: 250vh;
+    }
+
+    .superheroList{
+        height: 40%;
+    }
+}
